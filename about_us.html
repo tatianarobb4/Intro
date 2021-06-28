@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>About Us</title>
+        <!-- tell mobile browsers not to zoom in automatically -->
+        <meta name="viewport" content="initial-scale=1" />
+        <!--import css, including bootstrap's first-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <!--import js, including bootstrap's first-->
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <!--navigation bar-->
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(245, 236, 222)">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/icon.png" width="30" height="30" alt="" loading="lazy">
+                        </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link" href="professional_site.html">Home</a>
+                          <a class="nav-link active" aria-current="page" href="about_us.html">About Us</a>
+                          <a class="nav-link" href="contact_us.html">Contact Us</a>
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+
+            <h1>About Us</h1>
+
+            <!-- begin carousel -->
+            <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/second_floor.jpg" class="d-block w-100" alt="Very nice" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/center.jpg" class="d-block w-100" alt="Another nice one"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/side.jpg" class="d-block w-100" alt="Nice library" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- end carousel -->
+
+            <!--two sections of content-->
+            <div class="row">
+                <div class="about col-12 col-md-8">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Quisque arcu tortor, interdum in eleifend eu, vestibulum at risus. Sed facilisis porttitor turpis ac 
+                            ornare. Praesent venenatis non felis vitae auctor. Integer faucibus arcu in nibh mattis, quis elementum 
+                            elit aliquet.
+                        </li>
+                        <li class="list-group-item">
+                            Nullam ligula elit, tempus eu lectus eget, pulvinar tristique justo. Donec vestibulum velit libero, at 
+                            pellentesque arcu lobortis sit amet. Fusce dictum vestibulum risus, ac vestibulum elit feugiat eu. 
+                            Vestibulum tempus scelerisque accumsan. Donec lobortis et orci id pellentesque.
+                        </li>
+                        <li class="list-group-item">
+                            Cras tempor diam et lorem feugiat pulvinar. Mauris eu mollis neque, id tempus tellus. Praesent 
+                            sollicitudin sapien a varius pretium. Morbi vel elementum metus. Proin in ultrices mauris.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="column col-12 col-md-4">
+                    <div class="card">
+                        <img src="images/brown_books.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Aliquam rhoncus</h5>
+                            <p class="card-text"> 
+                                Donec varius mauris metus. In varius ligula posuere, feugiat tellus eu, sollicitudin turpis. Nullam 
+                                cursus, arcu ac vestibulum porta, augue nibh iaculis lorem, sit amet hendrerit arcu justo ac velit. 
+                                Fusce tempus aliquet sem vitae semper.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column col-12 col-md-4">
+                    <div class="card">
+                        <img src="images/about_us_books.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Aliquam rhoncus</h5>
+                            <p class="card-text"> 
+                                Donec varius mauris metus. In varius ligula posuere, feugiat tellus eu, sollicitudin turpis. Nullam 
+                                cursus, arcu ac vestibulum porta, augue nibh iaculis lorem, sit amet hendrerit arcu justo ac velit. 
+                                Fusce tempus aliquet sem vitae semper.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about col-12 col-md-8">
+                    <p>
+                        Curabitur ac erat sem. Nunc et rhoncus nibh. Donec a nisl leo. Vivamus scelerisque venenatis euismod. Maecenas 
+                        iaculis aliquet condimentum. Integer ut lorem ultrices, elementum odio eget, vestibulum orci. In vitae nulla 
+                        euismod, cursus sapien in, volutpat eros. Nullam sed nisl ullamcorper, gravida nisl vitae, sodales dui. Fusce 
+                        hendrerit convallis turpis et lobortis. Sed sed dignissim enim, eget eleifend leo. Vestibulum eu turpis 
+                        eleifend, ultrices ligula facilisis, aliquet ligula.
+                    </p>
+                </div>
+            </div>
+            
+            <footer>
+                <p>&copy; 2021. All rights reserved. Nothing free or open about this!</p>
+            </footer>
+        </div>
+    </body>
+</html>

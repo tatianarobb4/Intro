@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    background-color: rgb(245, 236, 222);
+    font-family: geneva;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/*button override*/
+.btn-light {
+    background-color: white;
+    color: rgb(117, 81, 51);
+}
+
+.btn-light:hover {
+    background-color: rgb(117, 81, 51);
+    color:white;
+    border: rosybrown;
+}
+
+/*card override*/
+.card {
+    background-color: rgb(245, 236, 222);
+    border: rgb(117, 81, 51) double 2px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+
+/*for homepage*/
+.hero {
+    height: 100vh;
+    /*width: 100vw;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    /*actual picture*/
+    /*background-image: url("/images/hero_image.jpg");*/
+    background-color: rgb(216, 187, 149);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home {
+    text-align: center;
+}
+
+.home_center {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home img {
+    width: 100%;
+}
+
+/*for about us page*/
+.about {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*list override*/
+.list-group {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li.list-group-item {
+    background-color: rgb(245, 236, 222);
+    border: none;
+}
+
+.carousel-item img {
+    height: 550px;
+}
+
+.contact {
+    text-align: center;
+    
+}
+
+.message {
+    height: 200px;
+}
+
+.details {
+    background-color: wheat;
+}

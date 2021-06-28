@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contact Us</title>
+        <!-- tell mobile browsers not to zoom in automatically -->
+        <meta name="viewport" content="initial-scale=1" />
+        <!--import css, including bootstrap's first-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <!--import js, including bootstrap's first-->
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <!--navigation bar-->
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(245, 236, 222)">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/icon.png" width="30" height="30" alt="" loading="lazy">
+                        </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link" href="professional_site.html">Home</a>
+                          <a class="nav-link" href="about_us.html">About Us</a>
+                          <a class="nav-link active" aria-current="page" href="contact_us.html">Contact Us</a>
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+
+            <section class="contact">
+                <h1 class="display-6">Contact Us</h1>
+                    <p>
+                        Telephone: (123) 123 - 1234
+                        <br />
+                        Email: interdum_in @eleifend.eu
+                        <br />
+                        Address: street name, city, state, zip code
+
+                    </p>
+
+                    <form>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5">
+                                <input type="text" class="form-control" placeholder="Telephone #">
+                            </div>
+                            <div class="col-7">
+                                <input type="text" class="form-control" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <input type="text" class="form-control message" placeholder="Your Message">
+                            </div>
+                        </div>
+                    </form>
+            </section>
+            
+
+            <footer>
+                <p>&copy; 2021. All rights reserved. Nothing free or open about this!</p>
+            </footer>
+        </div>
+    </body>
+</html>

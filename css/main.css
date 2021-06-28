@@ -1,0 +1,239 @@
+/* design things specifically for all the pages*/
+body {
+    background-color: rgb(245, 236, 222);
+}
+
+p {
+    font-size: medium;
+    font-family: monospace;
+}
+
+h1, h2, h3 {
+    font-family: monospace;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+h3 {
+    font-size: medium;
+}
+
+li {
+    font-family: monospace;
+    font-size: small;
+}
+
+/*about the links and such*/
+figcaption {
+    font-family: monospace;
+    font-size: x-small;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(128, 96, 15);
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:hover {
+    color: rgba(233, 169, 179, 0.863);
+}
+
+a:active {
+    color: lightsteelblue;
+}
+
+/*style thing for about_me and more_about_me*/
+.container {
+    width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+
+section {
+    /*width: 700px;*/
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 5px outset white;
+    border-radius: 20px;
+    /*float: left;*/
+}
+
+.clear {
+    clear: both;
+}
+
+#my_background, #my_interests {
+    width: 730px;
+    background-color: rgb(235, 224, 211);
+    float: left;
+}
+
+.special_heading h2 {
+    background-color: rgb(245, 236, 222);
+}
+
+.special_heading figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#bears {
+    width: 700px;
+    float: left;
+}
+
+#bears img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.homepage {
+    width:730px;
+    float: left;
+}
+
+/*Topic of interest css stuff*/
+#topic_interest {
+    width: 730px;
+    float: left;
+}
+
+div.column {
+    float:left;
+    width: 30%;
+    padding: 5px;
+}
+
+div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column img {
+    width: 210px;
+    height: 210px;
+}
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+
+/*User Experience Design tings*/
+#user {
+    width: 730px;
+    float: left;
+}
+
+.wireframes img {
+    width: 200px;
+    height: 300px;
+}
+
+.site_map img {
+    width: auto;
+    height: auto;
+}
+
+/*photoshop assignment*/
+.photo {
+    float: left;
+    width: 730px;
+}
+
+.photo img {
+    width: 620px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+/*animated gif assignment*/
+.gif {
+    float: left;
+    width: 730px;
+}
+
+/*digital video assignment*/
+.video {
+    float: left;
+    width: 730px;
+}
+
+video {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* All for my tiny box off to the side */
+#floating {
+    margin-left: 0px;
+    height: 840px;
+    width: 300px;
+    float: left;
+    padding: 30px;
+}
+
+#floating img {
+    height: 230px;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.headIng {
+    text-align: center;
+}
+
+nav.topnav ul {
+    border-top: 1px dotted white;
+    /*list-style-position: inside;*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+nav.topnav ul li {
+    width: 32px;
+    float: left;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    font-size: x-small;
+}
+
+* {box-sizing:border-box}
+.bar {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.vibes {width: 95%; background-color:thistle;}
+.astrology {width: 55%; background-color:wheat;}
+.crying {width: 100%; background-color: #cce6ff;}
